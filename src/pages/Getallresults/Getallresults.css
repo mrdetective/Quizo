@@ -1,0 +1,32 @@
+.get-all-results-box {
+  background-color: rgb(217, 235, 235);
+  height: 20rem;
+  width: 25rem;
+  border-radius: 2rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+.get-all-results-username-input {
+  background-color: transparent;
+  width: 20rem;
+  height: 2rem;
+  text-align: center;
+  margin-top: 6rem;
+}
+.get-all-results {
+  background-color: transparent;
+  width: 8rem;
+  height: 1.9rem;
+  text-align: center;
+  /* margin-top: 1rem; */
+  cursor: pointer;
+}
+.get-all-results:hover {
+  background-color: black;
+  color: white;
+}
